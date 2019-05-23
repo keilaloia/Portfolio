@@ -8,13 +8,24 @@
     border-style: solid;
     border-width: 1px;
     padding-left: 25px;
+    border-color: #dddddd;
     display: flexbox;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 h2
 {
+    color: #4aaaa5;
     margin-top: 3%;
     margin-left: 3%;
     font-size: 30px;
+}
+
+.game
+{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 300px;
+    height: 300px;
 }
