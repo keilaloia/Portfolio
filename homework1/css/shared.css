@@ -1,0 +1,54 @@
+section
+{
+    width: 100%;
+    height: 70px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    display: inline-flex;
+
+}
+h1
+{
+    font-size: 44px;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    margin-left: 15%;
+    width: 15%;
+    height: 80%;
+    border-style: solid;
+    border-width: 1px;
+}
+#right
+{
+    display:inherit;
+    position: absolute;
+    border-style: solid;
+    justify-content: flex-end;
+    border-width: 1px;
+    right: 0;
+    width: 30%;
+    height: 100%;
+}
+
+a
+{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 33.3%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer
+{
+    height: 70px;
+    padding-top: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+
+}
