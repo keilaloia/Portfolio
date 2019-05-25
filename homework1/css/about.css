@@ -4,21 +4,15 @@ img
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 4px;
+    float: left;
+
 }
 #aboutbox
 {
     margin-top: 5%;
-    margin-bottom: 15%;
-
-}
-#about
-{
     margin-left: 15%;
-    margin-right: auto;
-    font-size: 22px;
-    display: inline-flex;
-    position: relative;
-    width: 960px;
+    width: 80vw;
     height: 350px;
     border-style: solid;
     border-width: 1px;
@@ -26,23 +20,68 @@ img
     background-color: #ffffff;
 
 }
+#hat
+{
+    width: 95%;
+}
+#about
+{
+    
+    font-size: 22px;
+    text-align: justify;
+    padding-left: 10px;
+    width: 95%;
+
+
+}
 
 h2
 {
+    padding-left: 10px;
     color: #4aaaa5;
     font-size: 44px;
-    margin-left: 15%;
-    margin-right: auto;
 }
-img
+
+@media screen and (max-width: 980px)
 {
-    align-content: left;
-    position: relative;
+    #aboutbox
+    {
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    #about
+    { 
+        font-size: 20x;
+    }
 }
-#bio
+@media screen and (max-width: 768px)
 {
-    font-size: 24px;
-    align-content: left;
-    width: 70%;
-    position: relative;
+    #aboutbox
+    {
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    #about
+    { 
+        font-size: 20x;
+    }
 }
+@media screen and (max-width: 640px)
+{
+    #aboutbox
+    {
+    
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    #about
+    { 
+        font-size: 20x;
+    }
+} 
